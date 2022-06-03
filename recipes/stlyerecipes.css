@@ -1,0 +1,39 @@
+* {
+    color: orange;
+}
+
+body {
+    background-color: black;
+    color: green;
+    font-size: 24px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+div{
+    color:blueviolet
+}
+
+/* A <div> is one of the basic HTML elements. 
+It is simply an empty container. */
+
+.alert-text{
+    color: red;
+}
+
+#title {
+    background-color: purple;
+}
+
+/* html text for line 23-25 is 
+
+  <div id="title"> My Awesome cookbook </div>
+
+  Found on line 12 of yakisoba.html
+
+  */
+
+  /* Periods are used for class selectors
+  # are used fo id selectors
+  ID beats class in priority
+  */
+
