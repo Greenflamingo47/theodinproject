@@ -3,14 +3,23 @@
 }
 
 body {
-    background-color: black;
+    background-color: rgb(73, 62, 62);
     color: green;
     font-size: 24px;
     font-family: 'Courier New', Courier, monospace;
 }
 
+.pic {
+    margin: 0px;
+    border: solid rgb(73, 62, 62);
+}
+
 div{
-    color:blueviolet
+    color:
+}
+
+.underline {
+    text-decoration: underline;
 }
 
 /* A <div> is one of the basic HTML elements. 
@@ -20,9 +29,16 @@ It is simply an empty container. */
     color: red;
 }
 
+/* Deleted below ID from html-linked code
+
 #title {
     background-color: purple;
+    display: inline-block;
+    text-decoration: underline;
 }
+
+*/
+
 
 /* html text for line 23-25 is 
 
@@ -36,4 +52,11 @@ It is simply an empty container. */
   # are used fo id selectors
   ID beats class in priority
   */
-
+  
+  .link{
+    color: white;
+    font-weight: bolder;
+}
+a:hover{
+    color: orange;
+}
